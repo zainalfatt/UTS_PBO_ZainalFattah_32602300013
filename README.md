@@ -18,7 +18,7 @@ Aplikasi ini adalah aplikasi manajemen perpustakaan sederhana yang dikembangkan 
 
 ## Struktur Kelas
 Aplikasi ini memiliki 4 kelas utama:
-- **Buku** - Merepresentasikan buku dalam perpustakaan dengan atribut seperti `judul`, `pengarang`, `tahunTerbit`, `ISBN`, `status`. dan terdapat pewarisan Kelas Buku yaitu: BukuFiksi dan BukuNonFiksi
+- **Buku** - Merepresentasikan buku dalam perpustakaan dengan atribut seperti `judul`, `pengarang`, `tahunTerbit`, `ISBN`, `status`. dan terdapat pewarisan Kelas Buku yaitu: `BukuFiksi` dan `BukuNonFiksi`
 - **Anggota** - Merepresentasikan anggota perpustakaan dengan atribut `nama`, `nomorAnggota`, `alamat`, dan `daftarPinjaman`.
 - **Perpustakaan** - Merepresentasikan perpustakaan yang mengelola daftar buku dan anggota. Menyediakan metode untuk menambah buku, menambah anggota, meminjam buku, dan mengembalikan buku.
 - **Main** - Merepresentasikan antarmuka berbasis teks (console) yang interaktif dan mudah digunakan dan terdapat 7 Menu.
